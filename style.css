@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn-container{
+    text-align: center;
+    margin-top: 60px;
+    
+}
+.btn {
+    border-radius: 8px;
+    padding: 18px 25px 18px 26px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    margin: auto;
+}
+.btn:hover{
+    background: rgba(83, 195, 3, 0.308);
+    border: 1px solid black;
+    color: rgb(0, 255, 85);
+    box-shadow: 0 0 50px 10px rgba(41, 158, 64, 0.551);
+    transition: .3s;
+}
+#hero{
+    height: 768px ;
+    background-image:linear-gradient(0deg, 
+        rgb(16, 16, 16) -19.5%,
+        rgba(16, 16, 16, 0) 100%), 
+        url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    width: 921px;
+}
+#hero .hero-content .sub-title{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 28px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+margin-bottom: 14px;
+
+}
+#hero h1{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 58px;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+#hero .info{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 17px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+margin-bottom: 28px;
+}
+
+.card-box{
+    width: 1890;
+    /* flex-direction: column; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+
+}
+.card-info{
+    margin: 35px;
+}
+.card-info p{
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 14px auto;
+    
+}
+.card-info h1{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 14px auto;
+    width: 621px;
+}
+
+.image-card{
+    /* width: 382px; */
+    /* margin: auto 25px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image-card img{
+    width: 100%;
+    margin: 29px;
+    border-radius: 16px;
+}
+
+
+.image-card span{
+    border-radius: 8px;
+    padding: 13px 29px;
+    background: rgba(82, 195, 3, 0.15);
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center; 
+    
+ }
+ .image-card .sp{
+    margin: 20px;
+ }
+ .image-card span:hover{
+    background-color: rgba(83, 195, 3, 0.062);;
+    border: 0.1px solid rgba(70, 189, 94, 0.687);
+    transition: .3s;
+    box-shadow: 0 0 30px 5px rgba(164, 212, 174, 0.614);
+ }
+.image-card h1{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 20px;
+}
+
+.image-card p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    padding: 0 80px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: .7;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-img{
+    width: 864px;
+    position: relative;
+}
+.bg-img img{
+    width: 100%;
+}
+.social-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 747px;
+    margin: 121px auto;
+   
+}
+.social-box h1{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 22px;
+    position: relative;
+ }
+ .social-box p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin: 22px;
+    position: relative;
+ }
+ .social-box h3{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    border: 1px solid rgba(94, 94, 94, 0.375);
+    width: 100%;
+    padding: 10px 300px;
+    position: relative;
+ }
+ 
+ .social-box img{
+    margin: 15px;
+    width: 30px;
+    position: relative;
+    border-radius: 50%;
+    transition: .3s;
+ }
+ .social-box img:hover{
+   box-shadow: 0 0 10px  1px rgb(86, 76, 76);
+   opacity: 0.7;
+
+ }
